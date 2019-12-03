@@ -10,17 +10,17 @@
         style="width: 75px;background-color: #0e82ff;padding:2px 5px;border-radius:7px;"
       >Mindjet MindManager</h5>
       <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
       </div>
       <br>
       <h5
         class="skillhover shake-little"
-        style="width: 55px;background-color: #29a746;padding:2px 5px;border-radius:7px;"
+        style="width: 100px;background-color: #29a746;padding:2px 5px;border-radius:7px;"
       >原型设计类</h5>
       <div class="progress">
         <div
           class="progress-bar bg-success progress-bar-striped progress-bar-animated"
-          style="width:75%"
+          style="width:100%"
         ></div>
       </div>
       <br>
@@ -31,7 +31,7 @@
       <div class="progress">
         <div
           class="progress-bar bg-info progress-bar-striped progress-bar-animated"
-          style="width:65%"
+          style="width:100%"
         ></div>
       </div>
       <br>
