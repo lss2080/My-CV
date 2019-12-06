@@ -5,18 +5,18 @@
       <div class="mytopborder"></div>
       <div class="mybottomborder"></div>
       <div class="content text-center">
-        <h2 class="myh2"><span style="color: blueviolet;margin-left:15px">前端 </span> <span style="color: darkkhaki;margin-left:15px">展望 </span> <span style="color: palevioletred;margin-left:15px">代码 </span> <span style="color: brown;margin-left:15px">未来</span></h2>
+        <h2 class="myh2"><span style="color: blueviolet;margin-left:15px">LBS </span> <span style="color: darkkhaki;margin-left:15px">云应用 </span> <span style="color: palevioletred;margin-left:15px">代码 </span> <span style="color: brown;margin-left:15px">遥感</span></h2>
         <div class="line"></div>
-        <h4 class="myh4">学习是一个充实愉悦的过程喜欢尝试，期待新鲜事物前端即兴趣，兴趣即未来行路有良友，便是捷径期待有机会与您共事！</h4>
+        <h4 class="myh4">沟通是一个相互学习、充实愉悦的过程；喜欢尝试新鲜事物；兴趣便是成功的捷径；期待一路有良友，期待未来有机会与您共事！</h4>
         <h1 class="myh1 shake-opacity shake-constant"><span style="color: greenyellow">CONTACT</span> ME</h1>
         <div class="line"></div>
-        <div class="myconnect">
-          <a href="http://github.com/nopapername/vue-resume" target="_blank" class="iconfont" id="github" data-toggle="tooltip" data-placement="bottom" :title="github">&#xe6f6;</a>
-          <a href="#" class="iconfont" id="weixin" data-toggle="tooltip" data-placement="bottom" :title="weixin" data-html="true">&#xe654;</a>
-          <a href="#" class="iconfont" id="qq" data-toggle="tooltip" data-placement="bottom" :title="qq" data-html="true">&#xe66a;</a>
-          <a href="https://weibo.com/u/6020961867?topnav=1&wvr=6&topsug=1" target="_blank" class="iconfont" id="weibo" data-toggle="tooltip" data-placement="bottom" :title="weibo">&#xe66b;</a>
-          <a href="https://blog.csdn.net/weixin_43388844" target="_blank" class="iconfont" id="csdn" data-toggle="tooltip" data-placement="bottom" :title="csdn">&#xe600;</a>
-        </div>
+        <!--<div class="myconnect">-->
+          <!--<a href="#" target="_blank" class="iconfont" id="github" data-toggle="tooltip" data-placement="bottom" :title="github">&#xe6f6;</a>-->
+          <!--<a href="#" class="iconfont" id="weixin" data-toggle="tooltip" data-placement="bottom" :title="weixin" data-html="true">&#xe654;</a>-->
+          <!--<a href="#" class="iconfont" id="qq" data-toggle="tooltip" data-placement="bottom" :title="qq" data-html="true">&#xe66a;</a>-->
+          <!--<a href="#" target="_blank" class="iconfont" id="weibo" data-toggle="tooltip" data-placement="bottom" :title="weibo">&#xe66b;</a>-->
+          <!--<a href="#" target="_blank" class="iconfont" id="csdn" data-toggle="tooltip" data-placement="bottom" :title="csdn">&#xe600;</a>-->
+        <!--</div>-->
       </div>
     </div>
   </div>
