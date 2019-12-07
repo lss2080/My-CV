@@ -2,9 +2,9 @@
 
 > A Vue.js project
 
-### 网站预览 
+### 网站预览
 
-http://www.oyjhblog.com/#/
+https://lss2080.github.io/My-CV/
 
 ### 个人简历网站
 
