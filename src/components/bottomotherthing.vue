@@ -1,6 +1,6 @@
 <template>
   <div class="bottomcontent">
-    <img src="../assets/bg5.jpg" :style="{height:bottHeight}">
+    <img src="../assets/bg6.jpg" :style="{height:bottHeight}">
     <div class="midcontent animated flipInX">
       <div class="mytopborder"></div>
       <div class="mybottomborder"></div>

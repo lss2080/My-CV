@@ -5,9 +5,9 @@
       <div><h3 class="shake-chunk shake-constant">This is picture exhibiton</h3></div>
       <div class="swiperbg">
         <swiper :options="swiperOption">
-          <swiper-slide><img src="../assets/pro1.png"><span>粗糙的本简历网站</span></swiper-slide>
-          <swiper-slide><img src="../assets/pro2.png"><span>纯div+css仿京东网站练习</span></swiper-slide>
-          <swiper-slide><img src="../assets/pro3.png"><span>粗糙的漫威blog页面设计</span></swiper-slide>
+          <swiper-slide><img src="../assets/pro1.jpg"><span>粗糙的本简历网站</span></swiper-slide>
+          <swiper-slide><img src="../assets/pro2.jpg"><span>纯div+css仿京东网站练习</span></swiper-slide>
+          <swiper-slide><img src="../assets/pro3.jpg"><span>粗糙的漫威blog页面设计</span></swiper-slide>
         </swiper>
       </div>
     </div>

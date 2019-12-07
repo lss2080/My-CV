@@ -7,8 +7,8 @@
       <div class="skilltitle display-4 shake-rotate">Skills:</div>
       <h5
         class="skillhover shake-little"
-        style="width: 75px;background-color: #0e82ff;padding:2px 5px;border-radius:7px;"
-      >Mindjet MindManager</h5>
+        style="width: 100px;background-color: #0e82ff;padding:2px 5px;border-radius:7px;"
+      >脑图工具</h5>
       <div class="progress">
         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%"></div>
       </div>
@@ -16,7 +16,7 @@
       <h5
         class="skillhover shake-little"
         style="width: 100px;background-color: #29a746;padding:2px 5px;border-radius:7px;"
-      >原型设计类</h5>
+      >原型设计</h5>
       <div class="progress">
         <div
           class="progress-bar bg-success progress-bar-striped progress-bar-animated"
@@ -27,7 +27,7 @@
       <h5
         class="skillhover shake-little"
         style="padding-bottom:5px; width: 102px;background-color: #17a2b8;padding:2px 5px;border-radius:7px;"
-      >办公、汇报软件</h5>
+      >办公软件</h5>
       <div class="progress">
         <div
           class="progress-bar bg-info progress-bar-striped progress-bar-animated"
@@ -48,23 +48,23 @@
       <br>
       <h5
         class="skillhover shake-little"
-        style="padding-bottom:5px; width: 70px;background-color: #dc3545;padding:2px 5px;border-radius:7px;"
-      >Jquery</h5>
+        style="padding-bottom:5px; width: 100px;background-color: #dc3545;padding:2px 5px;border-radius:7px;"
+      >行业软件</h5>
       <div class="progress">
         <div
           class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
-          style="width:60%"
+          style="width:80%"
         ></div>
       </div>
       <br>
       <h5
         class="skillhover shake-little"
         style="padding-bottom:5px; width: 106px;background-color: #343a40;padding:2px 5px;border-radius:7px;"
-      >Vue技术栈</h5>
+      >自学能力</h5>
       <div class="progress">
         <div
           class="progress-bar bg-dark progress-bar-striped progress-bar-animated"
-          style="width:50%"
+          style="width:90%"
         ></div>
       </div>
     </div>

@@ -5,11 +5,11 @@
       <div class="card">
         <div class="card-body text-center animated flipInX">
           <h1 class="card-title"><img class="introimg" src="../assets/introimg.jpg"></h1>
-          <h3 class="card-text">您好，我叫欧阳佳豪，坐标成都。 我是四川师范大学计算机科学与技术专业2016级大三的学生，有着一定的编程基础，
-            目前能熟练运用<span style="text-decoration: underline;">HTML5、CSS、Javascript</span>等前端Web开发技术，
-            熟悉<span style="text-decoration: underline;">bootstrap库、jquery库、Vue框架</span>等的基础，
-            能基本使用webpack、npm、git等工具,对前端很感兴趣，具有良好的自学能力，目前的规划是先找一份实习工作磨砺自我，积累工作经验，学习更多前端相关知识，
-            想要学习一些后端相关知识以更好的应对前端各种工作，努力的成为一名合格的前端工程师！</h3>
+          <h3 class="card-text">您好，我叫廖诗森，目前在北京。 目前从事产品设计工作，有着一定的编程基础，
+            目前能熟练运用<span style="text-decoration: underline;">VUE、AXURE、墨刀、Mindmanager、Xmind</span>等工具软件，
+            熟悉<span style="text-decoration: underline;">GIS、遥感、、数据库、Vue框架</span>等的基础，
+            能很好的使用工作中的各类工具软件,对前端很感兴趣，具有良好的自学能力，目前的规划是立足专业特点能力，设计出友好的产品服务于社会和用户，
+            努力的成为一名优秀的产品设计师！</h3>
         </div>
       </div>
     </div>

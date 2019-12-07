@@ -10,33 +10,59 @@
             <div class="point-content">
               <div class="point"></div>
               <div class="timePoint1">
-                <span>2013年至今</span>
+                <span>2017年至今</span>
                 <div class="exp-desc">
-                  <h4>目前在职，开机会</h4>
-                  <p style="color: green;">[进阶初级前端工程师]</p>
-                  <h6>具备前端基础技能，掌握vue框架基础，能简单运用webpack，git等工具</h6>
+                  <h4>北京航天宏图信息技术股份有限公司</h4>
+                  <p style="color: green;">高级产品经理</p>
+                  <h6>遥感云产品设计；内部支撑项目；敏捷迭代开发管理；CBB货架梳理、维护。
+                  </h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="point-content">
+              <div class="point"></div>
+              <div class="timePoint1">
+                <span>2015至2017</span>
+                <div class="exp-desc">
+                  <h4>北京森图伟业科技发展有限公司</h4>
+                  <p style="color: green;">创始人</p>
+                  <h6>组建公司团队负责公司日常运营管理；《环保足迹》商业产品设计、开发；商业计划书编写及对外沟通交流、汇报。 </h6>
+                </div>
+              </div>
+            </div>
+            <!--新增经历-->
+            <div class="point-content">
+              <div class="point"></div>
+              <div class="timePoint1">
+                <span>2014至2015</span>
+                <div class="exp-desc">
+                  <h4>高德软件</h4>
+                  <p style="color: green;">数据产品经理</p>
+                  <h6>街景质量体系项目经理，建立街景、全景数据质量体系；负责步行导航、室内地图数据的工艺维护。</h6>
+                </div>
+              </div>
+            </div>
+<!--新增经历-->
+            <div class="point-content">
+              <div class="point"></div>
+              <div class="timePoint1">
+                <span>2013至2014</span>
+                <div class="exp-desc">
+                  <h4>北京地拓科技发展有限公司</h4>
+                  <p style="color: green;">数据工程师</p>
+                  <h6>负责遥感数据的处理；参与项目方案的编写；参与全国水保数据入库实施；参与水土流失动态监测项目实施。</h6>
                 </div>
               </div>
             </div>
             <div class="point-content">
               <div class="point"></div>
               <div class="timePoint1">
-                <span>20xx年xx月</span>
+                <span>2009至2013</span>
                 <div class="exp-desc">
-                  <h4>···</h4>
-                  <p style="color: green;">[········]</p>
-                  <h6>······················</h6>
-                </div>
-              </div>
-            </div>
-            <div class="point-content">
-              <div class="point"></div>
-              <div class="timePoint1">
-                <span>2016年9月</span>
-                <div class="exp-desc">
-                  <h4>就读于四川师范大学计算机科学与技术专业</h4>
-                  <p style="color: green;">[本科：目前大三在读]</p>
-                  <h6>学校里表现普普通通，一名老实的大学生，没获得过啥证书，也没啥值得炫耀的奖项，前端是我的兴趣，自学能力中等偏上！</h6>
+                  <h4>四川农业大学</h4>
+                  <p style="color: green;">地理信息系统专业-测绘方向</p>
+                  <h6>学校里表现普普通通，一名老实的大学生，参加过学生会，曾经担任过班长、团支书、党支部书记、也没啥值得炫耀的奖项，自学能力中等偏上！</h6>
                 </div>
               </div>
             </div>
