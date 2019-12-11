@@ -45,84 +45,84 @@
 </template>
 
 <script>
-export default {
-  name: 'topmain',
-  props: ['topHeight'],
-  data () {
-    return {
-      swiperOption: {
-        speed: 2000,
-        setWrapperSize: true,
-        effect: 'flip', // 切换效果
-        loop: true, // 环路
-        touchRatio: 0, // 无法拖动
-        autoHeight: true,
-        autoplay: {
-          delay: 4000, // 1秒切换一次
-          disableOnInteraction: false, // 触碰后自动切换也不停止
-          waitForTransition: false
-        }
-      },
-      cardani: ''
-    }
-  },
-  methods: {
-    addcardAnimate () {
-      this.cardani = 'heartBeat'
+  export default {
+    name: 'topmain',
+    props: ['topHeight'],
+    data () {
+      return {
+        swiperOption: {
+          speed: 2000,
+          setWrapperSize: true,
+          effect: 'flip', // 切换效果
+          loop: true, // 环路
+          touchRatio: 0, // 无法拖动
+          autoHeight: true,
+          autoplay: {
+            delay: 4000, // 1秒切换一次
+            disableOnInteraction: false, // 触碰后自动切换也不停止
+            waitForTransition: false
+          }
+        },
+        cardani: ''
+      }
     },
-    delcardAnimate () {
-      this.cardani = ''
+    methods: {
+      addcardAnimate () {
+        this.cardani = 'heartBeat'
+      },
+      delcardAnimate () {
+        this.cardani = ''
+      }
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.topmaincontent {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.particles {
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-.swiper-slide img {
-  width: 100%;
-}
-.bg-imgs {
-  position: relative;
-  z-index: -1;
-}
-.somecontent {
-  position: absolute;
-  top: 0px;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mid-content {
-  width: 60%;
-}
-.card {
-  border: none;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0);
-  color: rgb(187, 187, 187);
-}
-.card:hover {
-  box-shadow: 8px 12px 50px rgba(0, 0, 0, 0.842);
-}
-.card p{
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  font-family: 'STKaiti','Courier New', Courier, monospace;
-}
+  .topmaincontent {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .particles {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .swiper-slide img {
+    width: 100%;
+  }
+  .bg-imgs {
+    position: relative;
+    z-index: -1;
+  }
+  .somecontent {
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mid-content {
+    width: 60%;
+  }
+  .card {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(187, 187, 187);
+  }
+  .card:hover {
+    box-shadow: 8px 12px 50px rgba(0, 0, 0, 0.842);
+  }
+  .card p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'STKaiti','Courier New', Courier, monospace;
+  }
 </style>

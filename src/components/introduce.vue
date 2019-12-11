@@ -9,64 +9,64 @@
             目前能熟练运用<span style="text-decoration: underline;">VUE、AXURE、墨刀、Mindmanager、Xmind</span>等工具软件，
             熟悉<span style="text-decoration: underline;">GIS、遥感、、数据库、Vue框架</span>等的基础，
             能很好的使用工作中的各类工具软件,对前端很感兴趣，具有良好的自学能力，目前的规划是立足专业特点能力，设计出友好的产品服务于社会和用户，
-            努力的成为一名优秀的产品设计师！</h3>
+            成为一名优秀的产品设计师！</h3>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-export default {
-  name: 'introduce',
-  props: ['introHeight']
-}
+  export default {
+    name: 'introduce',
+    props: ['introHeight']
+  }
 </script>
 <style scoped>
-.introcontent {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.bg2-img {
-  position: absolute;
-  display: block;
-  width: 100%;
-  z-index: -1;
-}
-.bg2-img img{
-  width: 100%;
-}
-.midcontent {
-  width: 60%;
-}
-.card {
-  border: none;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0);
-}
-.introimg {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  animation: rotate 10s linear infinite;
-}
-@keyframes rotate {
-  from{
-    transform: rotate(0deg);
+  .introcontent {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  to{
-    transform: rotate(359deg);
+  .bg2-img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index: -1;
   }
-}
-.introimg:hover {
-  box-shadow: 0 0 16px rgb(255, 102, 0);
-}
-.card-text {
-  font-family: 'STKaiti','Courier New', Courier, monospace;
-  font-size: 22px;
-  color: #ffffff;
-}
+  .bg2-img img{
+    width: 100%;
+  }
+  .midcontent {
+    width: 60%;
+  }
+  .card {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .introimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+  }
+  @keyframes rotate {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(359deg);
+    }
+  }
+  .introimg:hover {
+    box-shadow: 0 0 16px rgb(255, 102, 0);
+  }
+  .card-text {
+    font-family: 'STKaiti','Courier New', Courier, monospace;
+    font-size: 22px;
+    color: #ffffff;
+  }
 </style>

@@ -71,50 +71,50 @@
   </div>
 </template>
 <script>
-export default {
-  name: 'skilll',
-  props: ['skillHeight']
-}
+  export default {
+    name: 'skilll',
+    props: ['skillHeight']
+  }
 </script>
 <style scoped>
-.skillcontent {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.bg3-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-.bg3-img img {
-  width: 100%;
-}
-.midcontent {
-  width: 70%;
-  color: #ffffff;
-}
-.skilltitle {
-  position: relative;
-  width: 170px;
-  top: -20px;
-  left: 40%;
-  background-color: rgba(247, 0, 255, 0.5);
-  text-align: center;
-  padding-top: 7px;
-  padding-bottom: 1px;
-  border-radius: 10px;
-  font-family: "Kristen ITC", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  cursor: pointer;
-}
-.skillhover:hover {
-  cursor: pointer;
-  box-shadow: 0 0 16px rgba(225, 0, 255, 0.644);
-}
+  .skillcontent {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg3-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .bg3-img img {
+    width: 100%;
+  }
+  .midcontent {
+    width: 70%;
+    color: #ffffff;
+  }
+  .skilltitle {
+    position: relative;
+    width: 170px;
+    top: -20px;
+    left: 40%;
+    background-color: rgba(247, 0, 255, 0.5);
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    font-family: "Kristen ITC", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+  }
+  .skillhover:hover {
+    cursor: pointer;
+    box-shadow: 0 0 16px rgba(225, 0, 255, 0.644);
+  }
 </style>

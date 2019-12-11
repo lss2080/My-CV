@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="d-none d-md-block">
-      <a class="my-head shake-slow shake-constant shake-constant--hover" href="#">
+      <a class="my-head shake-slow shake-constant shake-constant--hover" href="https://nopapername.github.io/">
         <img src="../assets/headimg.jpg">
         <h5>NoProperName</h5>
         <h6><span>Lester</span> 's resume</h6>

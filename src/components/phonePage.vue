@@ -88,9 +88,9 @@
             <div class="col-6 offset-3">
               <div class="exhibition">
                 <swiper :options="swiperOption">
-                <swiper-slide><img src="../assets/pro1.png" width="200px" height="200px;"></swiper-slide>
-                <swiper-slide><img src="../assets/pro2.png" width="200px" height="200px;"></swiper-slide>
-                <swiper-slide><img src="../assets/pro3.png" width="200px" height="200px;"></swiper-slide>
+                  <swiper-slide><img src="../assets/pro1.png" width="200px" height="200px;"></swiper-slide>
+                  <swiper-slide><img src="../assets/pro2.png" width="200px" height="200px;"></swiper-slide>
+                  <swiper-slide><img src="../assets/pro3.png" width="200px" height="200px;"></swiper-slide>
                 </swiper>
               </div>
             </div>
@@ -101,163 +101,163 @@
   </div>
 </template>
 <script>
-export default {
-  data () {
-    return {
-      github: 'Github',
-      weixin: '<img src="./static/img/weixin.png" width="150px" height="150px">',
-      qq: '<img src="./static/img/qq.png" width="150px" height="150px">',
-      weibo: '新浪微博',
-      csdn: 'CSDN',
-      swiperOption: {
-        effect: 'cube', // 切换效果
-        cubeEffect: {
-          slideShadows: true,
-          shadow: true,
-          shadowOffset: 40,
-          shadowScale: 0.5
-        },
-        speed: 1000,
-        loop: true, // 环路
-        autoHeight: true,
-        autoplay: {
-          delay: 3000, // 4秒切换一次
-          disableOnInteraction: false // 触碰后自动切换也不停止
+  export default {
+    data () {
+      return {
+        github: 'Github',
+        weixin: '<img src="./static/img/weixin.png" width="150px" height="150px">',
+        qq: '<img src="./static/img/qq.png" width="150px" height="150px">',
+        weibo: '新浪微博',
+        csdn: 'CSDN',
+        swiperOption: {
+          effect: 'cube', // 切换效果
+          cubeEffect: {
+            slideShadows: true,
+            shadow: true,
+            shadowOffset: 40,
+            shadowScale: 0.5
+          },
+          speed: 1000,
+          loop: true, // 环路
+          autoHeight: true,
+          autoplay: {
+            delay: 3000, // 4秒切换一次
+            disableOnInteraction: false // 触碰后自动切换也不停止
+          }
         }
       }
     }
   }
-}
 </script>
 <style scope>
-body {
-  overflow: auto;
-}
-.top {
-  background: url('../assets/phonetopbg.jpg') no-repeat;
-  background-size: 100%;
-  width: 100%;
-}
-.topheadimg {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  color: rgb(138, 60, 29);
-}
-.topheadimg p {
-  margin-top: 0 !important;
-}
-.myconnect {
-  position: relative;
-  top: -18px;
-}
-.myconnect a {
-  text-decoration: none;
-  color: black;
-}
-.iconfont {
-  margin-left: 22px;
-  font-size: 30px;
-  cursor: pointer;
-}
-.myconnect a:nth-child(1):hover {
-  color: rgb(65, 65, 65);
-}
-.myconnect a:nth-child(2):hover {
-  color: rgb(13, 161, 0);
-}
-.myconnect a:nth-child(3):hover {
-  color: rgb(0, 132, 255);
-}
-.myconnect a:nth-child(4):hover {
-  color: rgb(118, 0, 165);
-}
-.myconnect a:nth-child(5):hover {
-  color: rgb(197, 13, 0);
-}
-.aboutme {
-  padding-top: 35px;
-}
-.aboutme h3 {
-  position: relative;
-  left: 35%;
-  padding: 10px;
-  border-bottom: 2px solid blueviolet;
-  width: 150px;
-}
-.aboutme p {
-  padding: 20px;
-}
-.skills {
-  padding-top: 35px;
-}
-.skills h3 {
-  position: relative;
-  left: 35%;
-  padding: 10px;
-  border-bottom: 2px solid blueviolet;
-  width: 150px;
-}
-.skills p {
-  padding: 20px;
-  text-align: left;
-}
-.progressgroup {
-  padding: 0 20px;
-}
-.progress {
-  margin-top: 10px;
-}
-.myexperence {
-  padding-top: 35px;
-}
-.myexperence h3 {
-  position: relative;
-  left: 35%;
-  padding: 10px;
-  border-bottom: 2px solid blueviolet;
-  width: 150px;
-}
-.exper {
-  padding: 20px;
-  text-align: left;
-}
-.circle {
-  position: relative;
-  top: 7px;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: black;
-}
-.exper .time {
-  margin-left: 20px;
-  padding: 0 5px;
-  background-color: rgb(255, 0, 98);
-  border-radius: 5px;
-}
-.pexpcontent {
-  position: relative;
-  left: 13px;
-  border-left: 2px solid rgb(0, 207, 52);
-  padding: 10px 0;
-  padding-left: 20px;
-}
-.myproduction {
-  padding-top: 35px;
-}
-.myproduction h3 {
-  position: relative;
-  left: 35%;
-  padding: 10px;
-  border-bottom: 2px solid blueviolet;
-  width: 150px;
-}
-.exhibition {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  width: 200px;
-  height: 200px;
-}
+  body {
+    overflow: auto;
+  }
+  .top {
+    background: url('../assets/phonetopbg.jpg') no-repeat;
+    background-size: 100%;
+    width: 100%;
+  }
+  .topheadimg {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    color: rgb(138, 60, 29);
+  }
+  .topheadimg p {
+    margin-top: 0 !important;
+  }
+  .myconnect {
+    position: relative;
+    top: -18px;
+  }
+  .myconnect a {
+    text-decoration: none;
+    color: black;
+  }
+  .iconfont {
+    margin-left: 22px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .myconnect a:nth-child(1):hover {
+    color: rgb(65, 65, 65);
+  }
+  .myconnect a:nth-child(2):hover {
+    color: rgb(13, 161, 0);
+  }
+  .myconnect a:nth-child(3):hover {
+    color: rgb(0, 132, 255);
+  }
+  .myconnect a:nth-child(4):hover {
+    color: rgb(118, 0, 165);
+  }
+  .myconnect a:nth-child(5):hover {
+    color: rgb(197, 13, 0);
+  }
+  .aboutme {
+    padding-top: 35px;
+  }
+  .aboutme h3 {
+    position: relative;
+    left: 35%;
+    padding: 10px;
+    border-bottom: 2px solid blueviolet;
+    width: 150px;
+  }
+  .aboutme p {
+    padding: 20px;
+  }
+  .skills {
+    padding-top: 35px;
+  }
+  .skills h3 {
+    position: relative;
+    left: 35%;
+    padding: 10px;
+    border-bottom: 2px solid blueviolet;
+    width: 150px;
+  }
+  .skills p {
+    padding: 20px;
+    text-align: left;
+  }
+  .progressgroup {
+    padding: 0 20px;
+  }
+  .progress {
+    margin-top: 10px;
+  }
+  .myexperence {
+    padding-top: 35px;
+  }
+  .myexperence h3 {
+    position: relative;
+    left: 35%;
+    padding: 10px;
+    border-bottom: 2px solid blueviolet;
+    width: 150px;
+  }
+  .exper {
+    padding: 20px;
+    text-align: left;
+  }
+  .circle {
+    position: relative;
+    top: 7px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .exper .time {
+    margin-left: 20px;
+    padding: 0 5px;
+    background-color: rgb(255, 0, 98);
+    border-radius: 5px;
+  }
+  .pexpcontent {
+    position: relative;
+    left: 13px;
+    border-left: 2px solid rgb(0, 207, 52);
+    padding: 10px 0;
+    padding-left: 20px;
+  }
+  .myproduction {
+    padding-top: 35px;
+  }
+  .myproduction h3 {
+    position: relative;
+    left: 35%;
+    padding: 10px;
+    border-bottom: 2px solid blueviolet;
+    width: 150px;
+  }
+  .exhibition {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 200px;
+  }
 </style>
