@@ -5,9 +5,12 @@
       <div><h3 class="shake-chunk shake-constant">This is picture exhibiton</h3></div>
       <div class="swiperbg">
         <swiper :options="swiperOption">
-          <swiper-slide><img src="../assets/pro1.jpg"><span>粗糙的本简历网站</span></swiper-slide>
-          <swiper-slide><img src="../assets/pro2.jpg"><span>纯div+css仿京东网站练习</span></swiper-slide>
-          <swiper-slide><img src="../assets/pro3.jpg"><span>粗糙的漫威blog页面设计</span></swiper-slide>
+          <swiper-slide><img src="../assets/Pro12.jpg"><span>环保足迹产品</span></swiper-slide>
+          <swiper-slide><img src="../assets/Pro13.jpg"><span>环保大数据</span></swiper-slide>
+          <swiper-slide><img src="../assets/Pro14.jpg"><span>环保大数据1</span></swiper-slide>
+          <swiper-slide><img src="../assets/Pro15.jpg"><span>环保足迹2</span></swiper-slide>
+          <swiper-slide><img src="../assets/Pro16.jpg"><span>报道</span></swiper-slide>
+          <swiper-slide><img src="../assets/Pro17.jpg"><span>云平台</span></swiper-slide>
         </swiper>
       </div>
     </div>

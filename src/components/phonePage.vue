@@ -88,9 +88,9 @@
             <div class="col-6 offset-3">
               <div class="exhibition">
                 <swiper :options="swiperOption">
-                  <swiper-slide><img src="../assets/pro1.png" width="200px" height="200px;"></swiper-slide>
-                  <swiper-slide><img src="../assets/pro2.png" width="200px" height="200px;"></swiper-slide>
-                  <swiper-slide><img src="../assets/pro3.png" width="200px" height="200px;"></swiper-slide>
+                  <swiper-slide><img src="../assets/pro1.jpg" width="200px" height="200px;"></swiper-slide>
+                  <swiper-slide><img src="../assets/pro2.jpg" width="200px" height="200px;"></swiper-slide>
+                  <swiper-slide><img src="../assets/pro3.jpg" width="200px" height="200px;"></swiper-slide>
                 </swiper>
               </div>
             </div>
