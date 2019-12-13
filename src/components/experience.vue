@@ -43,17 +43,17 @@
               </div>
             </div>
             <!--新增经历-->
-            <!--<div class="point-content">-->
-              <!--<div class="point"></div>-->
-              <!--<div class="timePoint1">-->
-                <!--<span>2013至2014</span>-->
-                <!--<div class="exp-desc">-->
-                  <!--<h4>北京地拓科技发展有限公司</h4>-->
-                  <!--<p style="color: green;">数据工程师</p>-->
-                  <!--<h6>负责遥感数据的处理；参与项目方案的编写；参与全国水保数据入库实施；参与水土流失动态监测项目实施。</h6>-->
-                <!--</div>-->
-              <!--</div>-->
-            <!--</div>-->
+            <div class="point-content">
+              <div class="point"></div>
+              <div class="timePoint1">
+                <span>2013至2014</span>
+                <div class="exp-desc">
+                  <h4>北京地拓科技发展有限公司</h4>
+                  <p style="color: green;">数据工程师</p>
+                  <h6>负责遥感数据的处理；参与项目方案的编写；参与全国水保数据入库实施；参与水土流失动态监测项目实施。</h6>
+                </div>
+              </div>
+            </div>
             <div class="point-content">
               <div class="point"></div>
               <div class="timePoint1">
