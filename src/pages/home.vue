@@ -32,7 +32,7 @@ import skills from '../components/skills'
 import experience from '../components/experience'
 import production from '../components/production'
 import bottomotherthing from '../components/bottomotherthing'
-import phonePage from '../components/phonePage'
+//import phonePage from '../components/phonePage'
 
 export default {
   name: 'home',
