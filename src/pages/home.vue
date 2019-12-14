@@ -18,9 +18,9 @@
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
     </div>
-    <div class="d-md-none">
-      <phonePage></phonePage>
-    </div>
+    <!--<div class="d-md-none">-->
+      <!--<phonePage></phonePage>-->
+    <!--</div>-->
   </div>
 </template>
 <script>
