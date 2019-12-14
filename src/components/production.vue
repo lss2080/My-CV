@@ -9,7 +9,7 @@
           <swiper-slide><img src="../assets/Pro13.jpg"><span>环保大数据</span></swiper-slide>
           <swiper-slide><img src="../assets/Pro14.jpg"><span>环保大数据1</span></swiper-slide>
           <swiper-slide><img src="../assets/Pro15.jpg"><span>环保足迹2</span></swiper-slide>
-          <swiper-slide><img src="../assets/Pro16.jpg"><span>报道</span></swiper-slide>
+          <swiper-slide><img src="../assets/Pro16.jpg"><span>泰伯网报道</span></swiper-slide>
           <swiper-slide><img src="../assets/Pro17.jpg"><span>云平台</span></swiper-slide>
         </swiper>
       </div>
