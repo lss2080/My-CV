@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/My-CV_bak.iml" filepath="$PROJECT_DIR$/.idea/My-CV_bak.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/oyresume.github.io-master.iml" filepath="$PROJECT_DIR$/.idea/oyresume.github.io-master.iml" />
     </modules>
   </component>
